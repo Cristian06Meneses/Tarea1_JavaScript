@@ -1,0 +1,95 @@
+body{
+    background-color: #3f3f3f;
+}
+
+body h1{
+    color:darkviolet;
+    background-color: rgba(0, 0, 0, 0.483);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+body p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100%;
+    text-align:center;
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1200px;
+    margin: 10px auto 10px auto;
+}
+
+.contenedor h3{
+    color: cyan;
+    font-size: 130%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.contenedor h4{
+    font-size: 130%;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.contenedor input[type="radio"]{
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+.contenedor .p1 label, .p4 label,
+ .p2 label, .p5 label{
+    cursor: pointer;
+}
+
+.contenedor .p1, .p4{
+    margin-left: 30%;
+}
+
+.contenedor .p1 input, .p4 input{
+    margin-bottom: 10px;
+}
+
+.contenedor .p2, .p5{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor .p2 input, .p5 input{
+    margin-left: 24%;
+    margin-bottom: 10px;
+}
+
+.contenedor .p3, .p6{
+    margin-left: 15%;
+}
+
+.contenedor .p3 input[type="text"], .p6 input[type="text"]{
+    background-color:rgba(216, 112, 147, 0.386);
+    font-style: italic;
+    font-size: 15px;
+    box-shadow: 0 0 5px hsl(298, 99%, 29%);
+}
+
+.contenedor label{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.contenedor button{
+    background-color: deeppink;
+    color: aliceblue;
+    margin: auto;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    letter-spacing: .09em;
+    cursor: pointer;
+    display: flex;
+}

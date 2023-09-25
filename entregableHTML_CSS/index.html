@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Cuestionario Random</h1>
+
+        <p>2 preguntas de seleccion multiple. <br>
+        2 preguntas de verdadero o falso. <br>
+        2 preguntas de completa la frase.</p>
+        
+    </main>
+    <section class="contenedor">
+        <hr>
+        <form>
+            <h3>Pregunta 1:</h3>
+            <h4><strong>¿Qué invento permite mirar a través de una pared?</strong></h4>
+            <ul class="p1">
+                <input type="radio" id="p1opciones1" name="p1opciones" value="1">
+                <label for="p1opciones1">La vision infraroja <br></label>
+                <input type="radio" id="p1opciones2" name="p1opciones" value="2">
+                <label for="p1opciones2">El vidrio <br></label>
+                <input type="radio" id="p1opciones3" name="p1opciones" value="3">
+                <label for="p1opciones3">La ventana <br></label>
+                <input type="radio" id="p1opciones4" name="p1opciones" value="4">
+                <label for="p1opciones4">Las ondas de radio <br></label>
+            </ul>
+        </form>
+        <hr>
+        <form>
+            <h3>Pregunta 2 (afirmación):</h3>
+            <h4><strong>El sol es de color amarillo.</strong></h4>
+            <ul class="p2">
+                <input type="radio" id="p2opciones1" name="p2opciones" value="1">
+                <label for="p2opciones1">Verdadero <br></label>
+                <input type="radio" id="p2opciones2" name="p2opciones" value="2">
+                <label for="p2opciones2">Falso <br></label>
+            </ul>
+        </form>
+        <hr>
+        <form>
+            <h3>Pregunta 3 (completa la frase):</h3>
+            <h4><strong>"Mamá siempre decía que la vida era como una caja de ________. 
+            Nunca sabes qué te va a tocar". (Forrest Gump)</strong></h4>
+            <ul class="p3">
+                <label for="p3completa">Ingrese la palabra faltante: </label>
+                <input type="text" name="p3completa" placeholder="Pista: es un dulce">
+            </ul>
+        </form>
+        <hr>
+        <form>
+            <h3>Pregunta 4:</h3>
+            <h4><strong>¿Cúando llegó el hombre a la luna?</strong></h4>
+            <ul class="p4">
+                <input type="radio" id="p4opciones1" name="p4opciones" value="1">
+                <label for="p4opciones1">1969 <br></label>
+                <input type="radio" id="p4opciones2" name="p4opciones" value="2">
+                <label for="p4opciones2">1965 <br></label>
+                <input type="radio" id="p4opciones3" name="p4opciones" value="3">
+                <label for="p4opciones3">1970 <br></label>
+                <input type="radio" id="p4opciones4" name="p4opciones" value="4">
+                <label for="p4opciones4">1959 <br></label>
+            </ul>
+        </form>
+        <hr>
+        <form>
+            <h3>Pregunta 5 (afirmación):</h3>
+            <h4><strong>La segunda guerra mundial inicio en el año 1939.</strong></h4>
+            <ul class="p5">
+                <input type="radio" id="p5opciones1" name="p5opciones" value="1">
+                <label for="p5opciones1">Verdadero <br></label>
+                <input type="radio" id="p5opciones2" name="p5opciones" value="2">
+                <label for="p5opciones2">Falso <br></label>
+            </ul>
+        </form>
+        <hr>
+        <form>
+            <h3>Pregunta 6 (completa la frase):</h3>
+            <h4><strong>"La ________ es la habilidad de adaptarse a los cambios" 
+            (Stephen Hawking)</strong></h4>
+            <ul class="p6">
+                <label for="p6completa">Ingrese la palabra faltante: </label>
+                <input type="text" name="p6completa" placeholder="Pista: habilidad humana">
+            </ul>
+        </form>
+        <hr>
+        <br>
+        <button type="submit">Terminar Cuestionario</button>
+    </section>
+</body>
+</html>
