@@ -1,0 +1,61 @@
+body {
+    font-family: cursive;
+    text-align: center;
+    background-color:rgb(38, 38, 38);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color:rgb(0, 243, 243);
+    cursor: default;
+}
+
+#app {
+    background-color: #6f6f6f;
+    margin: 30px auto;
+    padding: 20px;
+    width: 310px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(251, 2, 2, 0.499);
+}
+
+#textoAddtarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #ff006f;
+    color: #000000;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.delete {
+    background-color: #ff4136;
+}
+
+.delete:hover {
+    background-color: #e90d00;
+}
